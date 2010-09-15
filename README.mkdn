@@ -1,20 +1,22 @@
 # NAME
 
-Plack::Middleware::NoCache -
+Plack::Middleware::NoCache - add no-cache header to HTTP response
 
 # SYNOPSIS
 
-  use Plack::Middleware::NoCache;
+    enable 'Plack::Middleware::NoCache';
 
 # DESCRIPTION
 
-Plack::Middleware::NoCache is
+Plack::Middleware::NoCache adds "Cache-Control: no-cache" and "Pragma: no-cache" header to HTTP response.
 
 # AUTHOR
 
 Tokuhiro Matsuno <tokuhirom AAJKLFJEF GMAIL COM>
 
 # SEE ALSO
+
+[Sledge::Plugin::NoCache](http://search.cpan.org/perldoc?Sledge::Plugin::NoCache)
 
 # LICENSE
 
